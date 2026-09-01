@@ -49,6 +49,8 @@
 | `07-ingress-auth-authorization-delivery.md` | ingress/auth/authorization/ownership/delivery |
 | `08-side-effect-enforcement-capability-and-hermes-mapping.md` | Effect Intent, capability, replay/reconcile, Hermes mapping |
 | `09-python-core-service-and-gui-control-monitoring.md` | Python Core, asyncio, PySide6 GUI, control/monitor architecture |
+| `10-reference-contracts-and-data-shapes.md` | canonical reference contracts, identities, data shapes และ compatibility rules |
+| `11-threat-model-reliability-and-safety-considerations.md` | threat model, trust boundaries, fail-open/closed และ safety/reliability controls |
 
 ### `development/` — แผนการพัฒนาและการพิสูจน์ระบบ
 
@@ -64,6 +66,8 @@
 | `07-test-chaos-security-and-acceptance-plan.md` | TDD, chaos, negative tests, security, acceptance |
 | `08-release-migration-observability-and-operations-plan.md` | release, migration, backup, diagnostics, operations |
 | `09-master-roadmap-and-definition-of-done.md` | roadmap รวม, dependencies, DoD, exit gates |
+| `10-detailed-work-breakdown-and-dependency-map.md` | workstreams, dependencies, gates และ commit-sized work breakdown |
+| `11-review-checklists-and-change-governance.md` | architecture review, capability/state/context/GUI checklists และ ADR governance |
 
 ---
 
@@ -118,9 +122,9 @@
 
 ## 5. Recommended reading order
 
-สำหรับเข้าใจระบบ: `knowledge/00 → 01 → 02 → 03 → 04 → 05 → 06 → 07 → 08 → 09`
+สำหรับเข้าใจระบบ: `knowledge/00 → 01 → 02 → 03 → 04 → 05 → 06 → 07 → 08 → 09 → 10 → 11`
 
-สำหรับเริ่มพัฒนา: อ่าน knowledge อย่างน้อย 00–02 และ 06–09 ก่อน แล้วจึง `development/00 → ... → 09`
+สำหรับเริ่มพัฒนา: อ่าน knowledge อย่างน้อย 00–02 และ 06–09 ก่อน แล้วจึง `development/00 → ... → 11`
 
 ---
 
